@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.diep_chelsea.httprequest" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SelectPaperActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VnExpress"
+            android:label="VnExpress" />
+        <activity
+            android:name=".MainActivity"
+            android:label="24h" >
+        </activity>
+        <activity android:name=".SelectOptionActivity" >
+        </activity>
+        <activity android:name=".ArticleActivity" >
+        </activity>
+        <activity
+            android:name=".DantriActivity"
+            android:label="@string/title_activity_dantri" >
+        </activity>
+        <activity
+            android:name=".VnnActivity"
+            android:label="@string/title_activity_vnn" >
+        </activity>
+        <activity
+            android:name=".TtvhActivity"
+            android:label="@string/title_activity_soha" >
+        </activity>
+        <activity
+            android:name=".TinhteActivity"
+            android:label="@string/title_activity_tinhte" >
+        </activity>
+        <activity
+            android:name=".CopyActivity"
+            android:label="@string/title_activity_copy" >
+        </activity>
+    </application>
+
+</manifest>

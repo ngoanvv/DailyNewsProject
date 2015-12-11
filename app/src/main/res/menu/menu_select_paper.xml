@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.diep_chelsea.httprequest.SelectPaperActivity">
+    <item android:id="@+id/go"
+          android:title="Đọc tiếp (Online)"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+    tools:context="com.example.diep_chelsea.httprequest.SelectPaperActivity">
+    <item android:id="@+id/gooff"
+          android:title="Đọc tiếp (Offline)"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+</menu>
